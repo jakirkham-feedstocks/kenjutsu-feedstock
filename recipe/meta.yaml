@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -31,6 +31,7 @@ about:
   home: https://github.com/jakirkham/kenjutsu
   license: BSD 3-Clause
   license_family: BSD
+  license_file: LICENSE.txt
   summary: Python utility functions for slices.
   doc_url: https://kenjutsu.readthedocs.io/
   dev_url: https://github.com/jakirkham/kenjutsu
