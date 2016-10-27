@@ -1,6 +1,6 @@
 {% set name = "kenjutsu" %}
-{% set version = "0.0.1" %}
-{% set sha256 = "9a0a4a877eedfd0b7a0895503c5ec688ddf35c963d3d7d7898881100e5b51701" %}
+{% set version = "0.1.0" %}
+{% set sha256 = "be95a38e2af06c64091961114217a814ce861018b9d4e76f5e3c971cd3fcd658" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
