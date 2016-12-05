@@ -11,6 +11,18 @@ Summary: Python utility functions for slices.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/kenjutsu-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/kenjutsu-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/kenjutsu-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/kenjutsu-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/kenjutsu-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/kenjutsu-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/version.svg)](https://anaconda.org/conda-forge/kenjutsu)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/downloads.svg)](https://anaconda.org/conda-forge/kenjutsu)
+
 Installing kenjutsu
 ===================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `kenjutsu` available on your platf
 ```
 conda search kenjutsu --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/kenjutsu-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/kenjutsu-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/kenjutsu-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/kenjutsu-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/kenjutsu-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/kenjutsu-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/version.svg)](https://anaconda.org/conda-forge/kenjutsu)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/downloads.svg)](https://anaconda.org/conda-forge/kenjutsu)
 
 
 Updating kenjutsu-feedstock
