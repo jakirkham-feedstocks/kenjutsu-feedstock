@@ -1,19 +1,18 @@
 {% set name = "kenjutsu" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "2b5a68253e6055283c30ee5a9c47d5710e3933875e11389e7687d1965405db1a" %}
+{% set commit = "fc6532343b053d1172c7de9d7b8ca3a0fd3ec200" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  git_url: https://github.com/jakirkham/kenjutsu
+  git_rev: {{ commit }}
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script:
+    - echo "$(python setup.py --version)" > __conda_version__.txt
+    - python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
