@@ -1,6 +1,6 @@
 {% set name = "kenjutsu" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "aa41865ef95709cd8d60193f1823a6aa647bb794237453b4aaf84d402ab513ea" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "0d88ffeaa036ab4c6c9e20979c01e59a498b75446bfffeed5386f2474699f08b" %}
 
 package:
   name: {{ name|lower }}
