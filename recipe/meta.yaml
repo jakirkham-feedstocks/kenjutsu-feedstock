@@ -24,8 +24,14 @@ requirements:
     - python
 
 test:
+  source_files:
+    - tests
+
   imports:
     - kenjutsu
+
+  commands:
+    - python -m unittest discover -s .
 
 about:
   home: https://github.com/jakirkham/kenjutsu
