@@ -14,14 +14,15 @@ Summary: Python utility functions for slices.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/kenjutsu-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/kenjutsu-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/kenjutsu-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/kenjutsu-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/kenjutsu-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/kenjutsu-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/kenjutsu-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/kenjutsu-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/version.svg)](https://anaconda.org/conda-forge/kenjutsu)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kenjutsu/badges/downloads.svg)](https://anaconda.org/conda-forge/kenjutsu)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kenjutsu-green.svg)](https://anaconda.org/conda-forge/kenjutsu) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kenjutsu.svg)](https://anaconda.org/conda-forge/kenjutsu) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kenjutsu.svg)](https://anaconda.org/conda-forge/kenjutsu) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kenjutsu.svg)](https://anaconda.org/conda-forge/kenjutsu) |
 
 Installing kenjutsu
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
